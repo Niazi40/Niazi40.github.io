@@ -1,0 +1,162 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  background-color:yellowgreen;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+
+figure {
+  text-align: center;
+  margin: 24px 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.content a {
+  color: #2563eb;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+
+.home-page .header,
+.home-page .footer {
+  background-color: #1e3a8a;
+  color: #d4af37;
+}
+
+.home-page .navbar a {
+  color: wheat;
+}
+
+.home-page .navbar a:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+
+.malware-page .header,
+.malware-page .footer {
+  background-color: #7f1d1d;
+  color: orangered;
+}
+
+.malware-page .navbar a {
+  color: white;
+}
+
+.malware-page .navbar a:hover {
+  background-color: #991b1b;
+  color: white;
+}
+
+
+.network-page .header,
+.network-page .footer {
+  background-color: #14532d;
+  color: whitesmoke;
+}
+
+.network-page .navbar a {
+  color: gold;
+}
+
+.network-page .navbar a:hover {
+  background-color: #166534;
+  color: yellowgreen;
+}
+
+
+.encryption-page .header,
+.encryption-page .footer {
+  background-color: #4c1d95;
+  color: white;
+}
+
+.encryption-page .navbar a {
+  color: white;
+}
+
+.encryption-page .navbar a:hover {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
