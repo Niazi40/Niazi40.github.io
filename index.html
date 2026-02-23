@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🛒 Shopping Cart</h1>
+
+  
+  
+
+  <div class="item">
+    <span>Apple ($2)</span>
+    <input type="number" id="qty0" value="0" min="0">
+  </div>
+
+  <div class="item">
+    <span>Bread ($3)</span>
+    <input type="number" id="qty1" value="0" min="0">
+  </div>
+
+  <div class="item">
+    <span>Milk ($4)</span>
+    <input type="number" id="qty2" value="0" min="0">
+  </div>
+
+  <h3>Shipping Method</h3>
+  <select id="shipping">
+    <option value="truck">Truck</option>
+    <option value="plane">Plane</option>
+    <option value="snail">Snail</option>
+  </select>
+
+  <div>
+    <!-- ONLY ONE IMAGE -->
+    <img id="shippingImg" src="img/pic.jpeg" width="120">
+  </div>
+
+  <h3>Promo Code is SAVE10</h3>
+  <input type="text" id="promo" placeholder="Enter promo code">
+
+  <br><br>
+  <button id="updateBtn">Update Total</button>
+
+  <h2>Subtotal: $<span id="subtotal">0</span></h2>
+  <h2>Tax (10%): $<span id="tax">0</span></h2>
+  <h2>Shipping: $<span id="shippingCost">0</span></h2>
+  <h2>Discount: $<span id="discount">0</span></h2>
+  <h2>Total: $<span id="total">0</span></h2>
+
+  <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
